@@ -15,24 +15,27 @@
 ---
 
 ## SECTION 1 : PROJECT TITLE
-## Singapore Housing & Deveoplment Board - BTO Recommender System
+## YOUR SONG - Intelligent Music Recommender Robot
 
-<img src="SystemCode/clips/static/hdb-bto.png"
-     style="float: left; margin-right: 0px;" />
+<img src="SystemCode/frontend/src/assets/banner.jpg" />
 
 ---
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-Singapore ranks amongst countries with the highest population density in the world. In a bid to have firm control over long term urban planning, the Singapore government came up with the “Built to Order” (abbreviated BTO) initiative back in 2001. These are new Housing Development Board (HDB) flats tightly controlled by their eligibility and quantity released every year. In more recent years, the modern BTO scheme in Singapore requires a waiting period of 3-4 years, and is generally targeted at young Singaporean couples looking to purchase their first property and set up a family. Nationality and income ceilings are some of the broad filters that determine one’s eligibility for the highly sought after projects. 
+There is no doubt that music is an indispensable spiritual companion in modern People's Daily life. Music is something that can inspire people, gives them hope, makes them believe in something greater, or lets them escape for a moment. It can be your best friend in time of need and is always there when you need it. The quote, “play the music, pause the memories, stop the pain, rewind the happiness.” This is what music can do for you in simplest terms. Music is a tool that can bind all cultures together. Every culture makes music and it is neat to see how cultures can bond over music.
 
 
-Our team, comprising of 6 young Singaporeans, all hope to be property owners one day. Many of our peers opt for BTO flats due to their affordability, existence of financial aid from the government, as well as their resale value. However, there often exists a knowledge gap for these young couples during the decision making process and they end up making potentially regretful decisions. We would like to bridge this knowledge gap, and have hence chosen to base our project on creating a recommender system for BTO flats, utilizing the data from recent launches in Tampines, Eunos, Sengkang and Punggol. 
+It is the great desire and demand of modern people for music that leads to the emergence of a large number of music and related music apps. In this era of information explosion, the vast network resources we have access to greatly facilitate our life, so that we can listen to a variety of music at will. Whatever it’s pop, rock, folk, electronic, jazz, absolute music, rap, metal, world music, new age, classical, indie, ambient music, etc.which divided by genre. However, sometimes the more choices provided, the more difficult it is for users to find the favorite songs among the numerous songs. Many music apps have realized this and implemented intelligent personalized recommendations in order to help users discover their own interests and preferences. However, the existing recommendation function in the market is not that perfect, and the playlist acquired by users is often limited to a single style, which will form the information cocoon effect in the long run.
 
 
-Using the techniques imparted to us in lectures, our group first set out to build a sizeable knowledge base via conducting an interview and administering a survey. While building the system, we utilized tools such as Java to scrape real time data from HDB website and transform it into a database, CLIPS to synthesize the rule based reasoning process, and Python to integrate it into an easy to use UI for the everyday user. To add icing on the cake, we even hosted the system on a website so that the everyday user can access it through the click of a link.
+Our project team wanted to help music apps solve the problem of flexibility in recommendations. The intelligent recommendation robot developed by us can increase users' participation in playlist customization by allowing them to talk with the robot. After obtaining the information provided by users, our system can quickly customize different playlists in real time. This playlist customization is unlimited and can be adjusted at any time.
 
 
-Our team had an amazing time working on this project, and hope to share our insights with everyone. Despite a focus on BTO flats, we would recommend it for everybody interested in understanding property market trends for residence or investment purposes. There truly are a wide array of factors behind the decision to invest in a property, and we only wish there was more time to work on the scope and scale of the project. 
+We used the third-party library Spotipy to scrape a large number of songs from Spotify to build a database. After obtaining a large amount of information from various dimensions of songs, we selected several song features that we thought were most suitable for subsequent data analysis: ‘Genre’, ‘Energy’, ‘Mode’, ‘Danceability’. In terms of music recommendation, we chose Item-based Collaborative Filtering Algorithm. In order to increase the diversity of our system, we combined this algorithm with informed search. In terms of the construction of the chatbot, we designed a simple and fresh chat interface that allows users to chat with the robot by vue.js. Besides, we used the python post method to resolve user preference data sent back by the front-end, and derived preference information by the rule engine, and got the music list.
+
+
+Our team works very happily on this project and hopes that the project can be used and receive feedback by more uses.This project can be more international if we can cooperate with music companies and ask them to add our bots to the app as a complement to the recommendation system.
+
 
 ---
 
@@ -40,11 +43,10 @@ Our team had an amazing time working on this project, and hope to share our insi
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Desmond Chua | A1234567A | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567A@nus.edu.sg |
-| Chang Ye Han | A1234567B | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567B@gmail.com |
-| Chee Jia Wei | A1234567C | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567C@outlook.com |
-| Ganesh Kumar | A1234567D | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
-| Jeanette Lim | A1234567E | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567E@qq.com |
+| Lin Qianqian | A0231438J | Recommendation engine & Engineering | e0703470@u.nus.edu |
+| Liujing | Axx | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| @u.nus.edu |
+| Yang Mingrun | Axx | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| @u.nus.edu |
+| Zhu Junkun | Axx | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| @u.nus.edu |
 
 ---
 
@@ -92,30 +94,28 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 `Refer to project report at Github Folder: ProjectReport`
 
 **Recommended Sections for Project Report / Paper:**
-- Executive Summary / Paper Abstract
-- Sponsor Company Introduction (if applicable)
-- Business Problem Background
-- Market Research
-- Project Objectives & Success Measurements
-- Project Solution (To detail domain modelling & system design.)
-- Project Implementation (To detail system development & testing approach.)
-- Project Performance & Validation (To prove project objectives are met.)
-- Project Conclusions: Findings & Recommendation
-- Appendix of report: Project Proposal
-- Appendix of report: Mapped System Functionalities against knowledge, techniques and skills of modular courses: MR, RS, CGS
-- Appendix of report: Installation and User Guide
-- Appendix of report: 1-2 pages individual project report per project member, including: Individual reflection of project journey: (1) personal contribution to group project (2) what learnt is most useful for you (3) how you can apply the knowledge and skills in other situations or your workplaces
-- Appendix of report: List of Abbreviations (if applicable)
-- Appendix of report: References (if applicable)
+1 EXECUTIVE SUMMARY
+2 PROBLEM DESCRIPTION
+2.1 PROJECT OBJECTIVE
+3 KNOWLEDGE MODELING
+3.1 KNOWLEDGE IDENTIFICATION
+3.2 KNOWLEDGE SPECIFICATION 
+3.3 KNOWLEDGE ACQUISITION
+4 SOLUTION OUTLINE 
+4.1 SYSTEM ARCHITECTURE
+4.2 PROJECT SCOPE 
+4.3 SYSTEM'S FEATURES 
+4.4 FUTURE IMPROVEMENTS
+Appendix 1: Project Proposal
+Appendix 2: Mapped System Functionalities against the knowledge
+Appendix 3: Installation and User Guide
+Appendix 4: Individual Report – Lin Qianqian
+Appendix 5: Individual Report – Liu Jing
+Appendix 6: Individual Report – Yang Mingrun
+Appendix 7: Individual Report – Zhu Junkun
+
 
 ---
-## SECTION 7 : MISCELLANEOUS
-
-`Refer to Github Folder: Miscellaneous`
-
-### HDB_BTO_SURVEY.xlsx
-* Results of survey
-* Insights derived, which were subsequently used in our system
 
 ---
 
