@@ -52,10 +52,7 @@ Our team works very happily on this project and hopes that the project can be us
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![Sudoku AI Solver](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/-AiYLUjP6o8 "Sudoku AI Solver")
-
-Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
-More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
+Please refer the videos in the folder summited to Luminus
 
 ---
 
@@ -63,30 +60,16 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 `Refer to appendix <Installation & User Guide> in project report at Github Folder: ProjectReport`
 
-### [ 1 ] To run the system using iss-vm
 
-> download pre-built virtual machine from http://bit.ly/iss-vm
+> git clone https://github.com/twinkletwinklelittlestar70/IRS-PM-2021-07-05-IS21FT-YourSon-YourSong.git
 
-> start iss-vm
+> cd SystemCode/backend
 
-> open terminal in iss-vm
+> pip install -r requirements.txt (py version 3.6)
 
-> $ git clone https://github.com/telescopeuser/Workshop-Project-Submission-Template.git
-
-> $ source activate iss-env-py2
-
-> (iss-env-py2) $ cd Workshop-Project-Submission-Template/SystemCode/clips
-
-> (iss-env-py2) $ python app.py
+> flask run
 
 > **Go to URL using web browser** http://0.0.0.0:5000 or http://127.0.0.1:5000
-
-### [ 2 ] To run the system in other/local machine:
-### Install additional necessary libraries. This application works in python 2 only.
-
-> $ sudo apt-get install python-clips clips build-essential libssl-dev libffi-dev python-dev python-pip
-
-> $ pip install pyclips flask flask-socketio eventlet simplejson pandas
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
@@ -113,9 +96,6 @@ Appendix 4: Individual Report – Lin Qianqian
 Appendix 5: Individual Report – Liu Jing
 Appendix 6: Individual Report – Yang Mingrun
 Appendix 7: Individual Report – Zhu Junkun
-
-
----
 
 ---
 
