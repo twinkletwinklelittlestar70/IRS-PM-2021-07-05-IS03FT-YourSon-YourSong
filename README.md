@@ -44,9 +44,9 @@ Our team works very happily on this project and hopes that the project can be us
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
 | Lin Qianqian | A0231438J | Recommendation engine & Engineering | e0703470@u.nus.edu |
-| Liujing | Axx | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| @u.nus.edu |
-| Yang Mingrun | Axx | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| @u.nus.edu |
-| Zhu Junkun | Axx | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| @u.nus.edu |
+| Liujing | A0231403Y | Recommendation engine & construction of database| e0703435@u.nus.edu |
+| Yang Mingrun | A0231344R | Dialogflow research & back-end development| e0303376@u.nus.edu |
+| Zhu Junkun | A0231471N | Dialogflow chatbot &  backend algorithm design | e0703503@u.nus.edu |
 
 ---
 
