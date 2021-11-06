@@ -67,6 +67,14 @@ Please refer the videos in the folder summited to Luminus
 
 > pip install -r requirements.txt (py version 3.6)
 
+To use your own google cloud key for dialogflow:
+
+1. New a agent on dialogflow and import out agent data;
+
+2. export the key;
+
+3. put the key on the root dir of backend code, and change your own key path on SystemCode/backend/app.py
+
 > flask run
 
 > **Go to URL using web browser** http://0.0.0.0:5000 or http://127.0.0.1:5000
@@ -96,6 +104,12 @@ Appendix 4: Individual Report – Lin Qianqian
 Appendix 5: Individual Report – Liu Jing
 Appendix 6: Individual Report – Yang Mingrun
 Appendix 7: Individual Report – Zhu Junkun
+
+---
+## SECTION 7 : Others
+
+The source code github: https://github.com/twinkletwinklelittlestar70/your_song
+The 
 
 ---
 
